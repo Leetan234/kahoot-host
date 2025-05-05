@@ -1,0 +1,69 @@
+
+/* Reset mặc định */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f6fa;
+  }
+  
+  h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .ant-layout-sider {
+    background-color:white;
+  }
+  
+  .ant-menu-item-selected {
+    background-color: #350089 !important;
+    font-weight: bold;
+    color: white !important;
+  }
+  
+  .ant-card {
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .custom-header {
+    background: #fff;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 0 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .ant-table-thead > tr > th {
+    background-color: #fafafa;
+    font-weight: 600;
+  }
+  
+  .ant-table-row {
+    background-color: #fff;
+  }
+  
+  .ant-table-row:nth-child(odd) {
+    background-color: #fafafa;
+  }
+  
+  .ant-btn {
+    border-radius: 6px;
+  }
+  
+  .ant-tag {
+    font-size: 13px;
+    padding: 4px 10px;
+  }
+  
+  .ant-input {
+    border-radius: 6px;
+  }
+  
+  /* Optional hover cleanup */
+  .ant-menu-dark .ant-menu-item:not(.ant-menu-item-selected):hover {
+    background-color: transparent !important;
+  }
+  
